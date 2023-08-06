@@ -22,7 +22,9 @@ This dual approach aims to offer a more comprehensive and nuanced search experie
 
 To use EmbedSumBot, you need to run the script embedBOT_comparesearch.py in your terminal. You will be prompted to enter a command. There are three commands available:
 
-**summarize:** This command will ask you to enter the name of a local .txt file that you want to summarize. It will generate a summary of the file content, embed it, analyze its sentiment, extract its keywords, and save them to a database.
+**summarise:** This command will ask you to enter the name of a local .txt file that you want to summarize. It will generate a summary of the file content, embed it, analyze its sentiment, extract its keywords, and save them to a database.
+
+**memorise:** This command allows you to enter text directly to be summarised and that summary remembered.
 
 **search:** This command will ask you to enter a text or a keyword that you want to search for. It will embed it, extract its keywords, and find the most similar summary in the database based on euclidean distance.
 
