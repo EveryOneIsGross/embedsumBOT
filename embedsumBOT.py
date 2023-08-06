@@ -102,7 +102,7 @@ while True:
     # If the user wants to memorise and summarise typed text
     elif user_input.startswith("memorise"):
         typed_text = user_input[len("memorise"):].strip()
-        summary = gpt_model.generate(f"Summarise: {typed_text}", max_tokens=500)
+        summary = gpt_model.generate(f"Summarise: {typed_text}", max_tokens=500, temp=0.3)
         embedding = embedder.embed(summary)
         sentiment = sentiment_analyzer.polarity_scores(summary)
         keyword_extractor.extract_keywords_from_text(summary)
