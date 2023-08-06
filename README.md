@@ -5,6 +5,8 @@ EmbedSumBot is a tool that can help you summarize text and search for summaries 
 ![embedsumBOT](https://github.com/EveryOneIsGross/embedsumBOT/assets/23621140/f9257814-e4a2-4c63-ada1-5788173c1c99)
 
 ---
+## Forgot to add chunking, current script only accepts small .txt files.
+---
 ## Usage:
 
 To use EmbedSumBot, you need to run the script embedBOT_comparesearch.py in your terminal. You will be prompted to enter a command. There are three commands available:
