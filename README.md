@@ -20,7 +20,7 @@ This dual approach aims to offer a more comprehensive and nuanced search experie
 
 ## Usage:
 
-To use EmbedSumBot, you need to run the script embedBOT.py in your terminal. You will be prompted to enter a command. There are three commands available:
+To use EmbedSumBot, you need to run the script embedsumBOT.py in your terminal. You will be prompted to enter a command. There are three commands available:
 
 **summarise:** followed by entering the name of a local .txt file that you want to summarize. It will generate a summary of the file content as chunks, embed it, analyze its sentiment, extract its keywords, and save them to a database.
 
